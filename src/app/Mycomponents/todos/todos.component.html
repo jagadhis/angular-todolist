@@ -1,4 +1,4 @@
-<app-add-todos></app-add-todos>
+<app-add-todos (todoAdd) ="addTodo($event)"></app-add-todos>
 
 <h3>Your Todos</h3>
 <div *ngFor="let todo of todos">
